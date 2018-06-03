@@ -99,17 +99,27 @@ h2 {
 .para1{
     font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+    float: left;
 }
 
 
-.footerContainer {
+footer {
     margin: 0;
     min-height: 100px;
     margin-top: auto;
     margin-bottom: -50px;
 }
 
-.footer, .push{
+/*
+.footerContainer {
+    margin: 0;
+    min-height: 100px;
+    margin-top: auto;
+    margin-bottom: -50px;
+}
+*/
+
+footer, .push{
     height: 50px;
 }
 
@@ -127,6 +137,11 @@ h2 {
     height: 50px;
    /* margin-bottom: -50px;
     min-height: 100%;*/
+}
+
+p {
+    text-align: center;
+    color: white;
 }
 
 .box1 {
@@ -184,28 +199,25 @@ h2 {
 }
 
 
-.form input {
+form {
     width: 95%;
     margin: auto;
     padding: 15px;
+    border: none;
 }
 
-#contact {
-    padding-top: 10px;
-    padding-left:10px;
-    margin-left: 10px;
+label {
+    color: #777777;
+}
+
+input {
     width: 95%;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
 }
 
-input [type=text] {
-    width: 95%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;   
-}
-
-input [type=submit] {
-   background-color:  #4aaaa5;
+button {
+    background-color:  #4aaaa5;
    border: none;
    color: white;
    padding: 16px 32px;
