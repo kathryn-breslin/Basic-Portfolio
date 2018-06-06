@@ -229,19 +229,6 @@ h2 {
     top: 70%;
 }
 
-.top {
-    float: left;
-    display: block;
-}
-
-.middle {
-    float: left;
-}
-
-.bottom {
-    float: left;
-}
-
 form {
     width: 95%;
     margin: auto;
