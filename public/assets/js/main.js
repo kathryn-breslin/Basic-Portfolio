@@ -12,6 +12,26 @@ $("#contact-button").on("click", function (event) {
     window.location.href = "/contact";
 });
 
+$("#roadsterLink").on("click", function (event) {
+    event.preventDefault();
+    window.open("https://github.com/kathryn-breslin/Project2", "_blank") 
+    console.log("Roadster has been clicked");
+});
+
+$("#friendLink").on("click", function (event) {
+    event.preventDefault();
+    window.open("https://github.com/kathryn-breslin/FriendFinder", "_blank") 
+    console.log("Friend Finder has been clicked")
+
+});
+
+$("#burgerLink").on("click", function (event) {
+    event.preventDefault();
+    window.open("https://github.com/kathryn-breslin/burger", "_blank")
+    console.log("Burger has been clicked")
+
+});
+
 $("#submitContact").on("click", function (event) {
     event.preventDefault();
 

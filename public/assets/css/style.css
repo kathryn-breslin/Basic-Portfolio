@@ -153,6 +153,10 @@ label, button {
 .card-text {
     font-family: 'Arimo', sans-serif;
 }
+
+#workDiv :hover {
+    opacity: 0.9;
+}
 /*
 body {
     background-image: url ("assets/images/what-the-hex.png");
