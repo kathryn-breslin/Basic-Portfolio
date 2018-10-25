@@ -57,6 +57,9 @@ body, html {
     margin-right: 30px;
 }
 
+#paragraph p {
+    font-size: 20px;
+}
 /* CONTACT PAGE */
 #contact{
     font-family: 'Arimo', sans-serif;
