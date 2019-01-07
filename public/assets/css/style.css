@@ -57,8 +57,63 @@ body, html {
     margin-right: 30px;
 }
 
+#kathryn img {
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#paragraph {
+    /* background-color: #f2f1f2;
+    padding: 40px;
+    margin: 20px;
+    margin-bottom: 0; */
+    position: relative;
+    height: 700px;
+    background-color: #f2f1f2;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 5vw));
+    padding: 40px;
+    margin-left: 20px;
+}
+
 #paragraph p {
     font-size: 20px;
+    margin: 20px;
+}
+
+#quote {
+    background-color: #cbc9cc;
+    margin-top:60px;
+    margin-left: 20px;
+    width: 400px;
+    height: 600px;
+    float: right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+#quote p {
+    margin: 40px;
+    margin-top: 60px;
+    font-size: 40px;
+    color: white;
+
+}
+
+#indexContact h4 {
+    margin: 0;
+    padding: 100px 0;
+    color: white;
+    text-align: center;
+}
+
+#indexContact {
+    background-color: #9E827F;
+    margin-top: -5vw;
+    margin-left: 20px;
+    /* padding: 60px;
+    margin: 20px;
+    width: 900px;
+    margin-top: 10px;  */
 }
 /* CONTACT PAGE */
 #contact{
@@ -105,6 +160,10 @@ label, button {
     top: 0;
     width: 100%;
     z-index: 100;
+}
+
+#contactTop {
+    margin-top: 40px;
 }
 
 #submit button {
@@ -187,7 +246,7 @@ form {
     z-index: 100;
 }
 
-#imgRoadster, #imgBurger, #imgFriend {
+#imgRoadster, #imgBurger, #imgFriend, #imgPlant {
     opacity: 0.5;
 }
 .card-title {

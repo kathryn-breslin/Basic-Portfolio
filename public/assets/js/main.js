@@ -12,6 +12,13 @@ $("#contact-button").on("click", function (event) {
     window.location.href = "/contact";
 });
 
+$("#plantLink").on("click", function (event) {
+    event.preventDefault();
+    window.open("https://github.com/kathryn-breslin/clickyReact/tree/master/clickyreact", "_blank")
+    console.log("Plant has been clicked")
+
+});
+
 $("#roadsterLink").on("click", function (event) {
     event.preventDefault();
     window.open("https://github.com/kathryn-breslin/Project2", "_blank") 
