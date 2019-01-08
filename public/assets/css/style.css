@@ -59,6 +59,11 @@ body, html {
     margin-right: 30px;
 }
 
+#kathryn img:hover {
+    background: #262626;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
 #kathryn img {
     border-radius: 50%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -66,18 +71,15 @@ body, html {
     margin-left: 20px;
 }
 
+
 #paragraph {
-    /* background-color: #f2f1f2;
-    padding: 40px;
-    margin: 20px;
-    margin-bottom: 0; */
-    
     position: relative;
     height: 100%;
     background-color: #f2f1f2;
-    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 5vw)); */
     padding: 40px;
     margin-left: 20px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 #paragraph p {
@@ -106,24 +108,44 @@ body, html {
 
 }
 
-#indexContact h4 {
-    margin: 0;
-    padding: 100px 0;
-    color: white;
-    text-align: center;
-}
-
 #indexContact {
     background-color: #9E827F;
-    /* margin-top: vw; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-left: 20px;
-    /* position: relative; */
-
-    /* padding: 60px;
-    margin: 20px;
-    width: 900px;
-    margin-top: 10px;  */
+    padding: 30px;
 }
+
+#indexContact h4 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 90px;
+}
+
+#indexContact a {
+    display:block;
+    width:150px;
+    height:150px;
+    line-height:135px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    color:#f5f5f5;
+    text-align:center;
+    text-decoration:none;
+    background: #585B68;
+    box-shadow: 0 0 3px gray;
+    font-size:20px;
+    font-weight:bold;
+    float: left;
+    margin-top: 20px;
+    margin: 20px;
+}
+
+#indexContact a:hover {
+    background: #262626;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
 /* CONTACT PAGE */
 #contact{
     font-family: 'Arimo', sans-serif;
