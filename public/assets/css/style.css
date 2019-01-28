@@ -83,7 +83,7 @@ body, html {
 }
 
 #paragraph p {
-    font-size: 25px;
+    font-size: 20px;
     margin: 20px;
 }
 
@@ -308,6 +308,14 @@ label, button {
     font-family: 'Arimo', sans-serif;
     text-align: center;
     font-size: 30px;;
+}
+
+.card-head {
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 4px 4px 16px white;
+
 }
 
 .card-text {

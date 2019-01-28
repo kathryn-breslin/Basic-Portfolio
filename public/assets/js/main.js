@@ -16,7 +16,12 @@ $("#plantLink").on("click", function (event) {
     event.preventDefault();
     window.open("https://github.com/kathryn-breslin/clickyReact/tree/master/clickyreact", "_blank")
     console.log("Plant has been clicked")
+});
 
+$("#plantHeroku").on("click", function (event) {
+    event.preventDefault();
+    window.open("https://plant-picker-kathryn.herokuapp.com/", "_blank");
+    console.log("Taking you to the deployed app");
 });
 
 $("#roadsterLink").on("click", function (event) {
@@ -29,14 +34,24 @@ $("#friendLink").on("click", function (event) {
     event.preventDefault();
     window.open("https://github.com/kathryn-breslin/FriendFinder", "_blank") 
     console.log("Friend Finder has been clicked")
+});
 
+$("#friendHeroku").on("click", function (event) {
+    event.preventDefault();
+    window.open("https://friend-finder-kathryn.herokuapp.com/", "_blank") 
+    console.log("Taking you to the deployed app");
 });
 
 $("#burgerLink").on("click", function (event) {
     event.preventDefault();
     window.open("https://github.com/kathryn-breslin/burger", "_blank")
     console.log("Burger has been clicked")
+});
 
+$("#burgerHeroku").on("click", function (event) {
+    event.preventDefault();
+    window.open("https://mysql-burger-kathryn.herokuapp.com/", "_blank")
+    console.log("Burger has been clicked")
 });
 
 $("#submitContact").on("click", function (event) {
