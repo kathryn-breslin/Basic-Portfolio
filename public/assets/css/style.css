@@ -269,8 +269,9 @@ label, button {
 
 #port-jumbo {
     background-color: white;
-    margin-block-end: 0;
-    margin-bottom: 0px;
+    /* margin-block-end: 0;
+    margin-bottom: 0px; */
+    margin: auto;
     height: 400px;
     padding: 50px;
 }

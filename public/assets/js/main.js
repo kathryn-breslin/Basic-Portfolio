@@ -30,6 +30,12 @@ $("#roadsterLink").on("click", function (event) {
     console.log("Roadster has been clicked");
 });
 
+$("#roadsterVideo").on("click", function (event) {
+    event.preventDefault();
+    window.open("https://docs.google.com/presentation/d/1MXKVO7vOIaTJUfmee9KVCLYOzTzR5MyycZdVyAumS_o/edit?usp=sharing", "_blank") 
+    console.log("Taking you to the demo");
+});
+
 $("#friendLink").on("click", function (event) {
     event.preventDefault();
     window.open("https://github.com/kathryn-breslin/FriendFinder", "_blank") 
