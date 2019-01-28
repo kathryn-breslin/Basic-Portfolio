@@ -51,7 +51,31 @@ $("#burgerLink").on("click", function (event) {
 $("#burgerHeroku").on("click", function (event) {
     event.preventDefault();
     window.open("https://mysql-burger-kathryn.herokuapp.com/", "_blank")
-    console.log("Burger has been clicked")
+    console.log("Taking you to the deployed app");
+});
+
+$("#scrapeLink").on("click", function (event) {
+    event.preventDefault();
+    window.open("https://github.com/kathryn-breslin/webScrape", "_blank")
+    console.log("WSJ has been clicked")
+});
+
+$("#scrapeHeroku").on("click", function (event) {
+    event.preventDefault();
+    window.open("https://webscrape-kathryn.herokuapp.com/", "_blank")
+    console.log("Taking you to the deployed app");
+});
+
+$("#bamazonLink").on("click", function (event) {
+    event.preventDefault();
+    window.open("https://github.com/kathryn-breslin/bamazon", "_blank")
+    console.log("Taking you to the deployed app");
+});
+
+$("#bamazonVideo").on("click", function (event) {
+    event.preventDefault();
+    window.open("https://drive.google.com/file/d/1h5yKKOIxnc7hpXxlgFaoo2_M7x3K-fc9/view", "_blank")
+    console.log("Taking you to the deployed app");
 });
 
 $("#submitContact").on("click", function (event) {
