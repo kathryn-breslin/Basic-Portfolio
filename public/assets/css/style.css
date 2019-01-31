@@ -302,7 +302,7 @@ label, button {
     z-index: 100;
 }
 
-#imgRoadster, #imgBurger, #imgFriend, #imgPlant, #imgWebScrape, #imgBamazon {
+#imgRoadster, #imgBurger, #imgFriend, #imgPlant, #imgWebScrape, #imgBamazon, #imgCrystal {
     opacity: 0.5;
 }
 .card-title {

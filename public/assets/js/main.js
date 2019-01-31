@@ -84,6 +84,12 @@ $("#bamazonVideo").on("click", function (event) {
     console.log("Taking you to the deployed app");
 });
 
+$("#crystalLink").on("click", function (event) {
+    event.preventDefault();
+    window.open("https://github.com/kathryn-breslin/unit-4-game", "_blank")
+    console.log("Crystal has been clicked");
+});
+
 $("#submitContact").on("click", function (event) {
     event.preventDefault();
 
