@@ -90,6 +90,12 @@ $("#crystalLink").on("click", function (event) {
     console.log("Crystal has been clicked");
 });
 
+$("#psychicLink").on("click", function (event) {
+    event.preventDefault();
+    window.open("https://github.com/kathryn-breslin/Psychic-Game", "_blank")
+    console.log("Psychic has been clicked");
+});
+
 $("#submitContact").on("click", function (event) {
     event.preventDefault();
 
