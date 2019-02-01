@@ -155,14 +155,19 @@ body, html {
 }
 
 #contact-jumbo{
-    background-color: white;
-    margin-block-end: 0;
+    /* margin-block-end: 0;
     margin-bottom: 100px;
-    height: 400px;
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
-    vertical-align: center;
+    vertical-align: center;*/
+    padding: 50px; 
+}
+
+#contactForm {
+    background-color: #F8F9FA;
+    height: auto;
+    margin: auto;
     padding: 50px;
 }
 
@@ -285,7 +290,7 @@ label, button {
 
 #workDiv {
     /* margin-right: 20px;*/
-    width: 500px;
+    width: 400px;
     padding: 20px;
     margin: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
