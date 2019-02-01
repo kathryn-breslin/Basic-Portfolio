@@ -272,8 +272,8 @@ label, button {
     /* margin-block-end: 0;
     margin-bottom: 0px; */
     margin: auto;
-    height: 400px;
-    padding: 150px;
+    height: auto;
+    padding: 40px;
 }
 
 #work {
@@ -285,13 +285,17 @@ label, button {
 
 #workDiv {
     /* margin-right: 20px;*/
-    padding: 10px;
-    margin: auto;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 #portfolio {
     /* margin: 60px; */
     margin: auto;
+    background-color: #F8F9FA;
+    padding: 20px;
 }
 
 #port-nav {
