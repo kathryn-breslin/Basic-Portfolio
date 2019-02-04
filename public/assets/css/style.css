@@ -315,7 +315,7 @@ label, button {
     z-index: 100;
 }
 
-#imgRoadster, #imgBurger, #imgFriend, #imgPlant, #imgWebScrape, #imgBamazon, #imgCrystal, #imgPsychic {
+#imgRoadster, #imgBurger, #imgFriend, #imgPlant, #imgWebScrape, #imgBamazon, #imgCrystal, #imgPsychic, #imgTrain, #imgGif {
     opacity: 0.5;
 }
 .card-title {

@@ -84,6 +84,18 @@ $("#bamazonVideo").on("click", function (event) {
     console.log("Taking you to the deployed app");
 });
 
+$("#gifLink").on("click", function (event) {
+    event.preventDefault();
+    window.open("https://github.com/kathryn-breslin/GifTastic", "_blank")
+    console.log("Gif has been clicked");
+});
+
+$("#trainLink").on("click", function (event) {
+    event.preventDefault();
+    window.open("https://github.com/kathryn-breslin/Train_Schedule", "_blank")
+    console.log("Train has been clicked");
+});
+
 $("#crystalLink").on("click", function (event) {
     event.preventDefault();
     window.open("https://github.com/kathryn-breslin/unit-4-game", "_blank")
