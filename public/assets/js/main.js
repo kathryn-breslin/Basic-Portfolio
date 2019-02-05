@@ -90,6 +90,13 @@ $("#gifLink").on("click", function (event) {
     console.log("Gif has been clicked");
 });
 
+$("#gifPage").on("click", function (event) {
+    event.preventDefault();
+    window.open("https://kathryn-breslin.github.io/GifTastic/", "_blank")
+    console.log("Taking you to GifTastic!");
+});
+
+
 $("#trainLink").on("click", function (event) {
     event.preventDefault();
     window.open("https://github.com/kathryn-breslin/Train_Schedule", "_blank")
@@ -105,6 +112,12 @@ $("#crystalLink").on("click", function (event) {
 $("#psychicLink").on("click", function (event) {
     event.preventDefault();
     window.open("https://github.com/kathryn-breslin/Psychic-Game", "_blank")
+    console.log("Psychic has been clicked");
+});
+
+$("#psychicPage").on("click", function (event) {
+    event.preventDefault();
+    window.open("https://kathryn-breslin.github.io/Psychic-Game/", "_blank")
     console.log("Psychic has been clicked");
 });
 
