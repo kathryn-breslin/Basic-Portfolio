@@ -84,6 +84,18 @@ $("#bamazonVideo").on("click", function (event) {
     console.log("Taking you to the deployed app");
 });
 
+$("#liriLink").on("click", function (event) {
+    event.preventDefault();
+    window.open("https://github.com/kathryn-breslin/liri-node-app", "_blank")
+    console.log("Taking you to the Liri's Github");
+});
+
+$("liriDemo").on("click", function (event) {
+    event.preventDefault();
+    window.open("https://drive.google.com/file/d/1x2YOFZ2Mt4-fcQB9b4qlJy3CFGK8UyPY/view?usp=sharing", "_blank")
+    console.log("Taking you to the demo");
+});
+
 $("#gifLink").on("click", function (event) {
     event.preventDefault();
     window.open("https://github.com/kathryn-breslin/GifTastic", "_blank")
