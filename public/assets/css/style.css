@@ -51,22 +51,13 @@ body, html {
     padding-bottom: 20px;
 }
 
-#kathryn {
-    float: left; 
-    margin-right: 20px;
-    margin-left: 20px
-}
-
 #kathryn img:hover {
     background: #262626;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
 }
 
 #kathryn img {
-    border-radius: 50%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    position: relative;
-    margin-left: 20px;
 }
 
 #about {
@@ -74,6 +65,10 @@ body, html {
     background-color: #f2f1f2;
     padding: 20px;
     border-bottom: solid black 1px;
+}
+
+#spacer {
+    height: 50px;
 }
 
 #paragraph {
@@ -85,24 +80,13 @@ body, html {
     margin: 10px;
 }
 
-#quote {
-    background-color: #585B68;
-    margin-top:60px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    width: 400px;
-    height: 450px;
-    float: right;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
-}
-
 #quote p {
     /* margin: 40px;
     margin-top: 60px; */
     font-size: 40px;
-    color: white;
+    color: #585B68;
     text-align: center;
+
     /* margin-bottom: 20px; */
 
 }
@@ -142,6 +126,12 @@ body, html {
 #indexContact a:hover {
     background: #262626;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+#footer {
+    font-size: 40px;
+    color: white;
+    text-align: center;
 }
 
 /* CONTACT PAGE */
