@@ -97,15 +97,8 @@ body, html {
     padding: 30px;
 }
 
-#indexContact h4 {
-    color: white;
-    text-align: center;
-    font-size: 30px;
-    padding: 90px;
-}
-
 #indexContact a {
-    display:block;
+    display: block;
     width:150px;
     height:150px;
     line-height:135px;
@@ -132,6 +125,19 @@ body, html {
     font-size: 40px;
     color: white;
     text-align: center;
+} 
+#footer button {
+    background-color: #9E827F;
+    border: none;
+}
+
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
 }
 
 /* CONTACT PAGE */
@@ -140,15 +146,10 @@ body, html {
     text-align: center;
     font-size: 100px;
     margin-top: 300px;
+    color: white;
 }
 
 #contact-jumbo{
-    /* margin-block-end: 0;
-    margin-bottom: 100px;
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    vertical-align: center;*/
     padding: 50px; 
 }
 
@@ -261,12 +262,9 @@ label, button {
 }
 
 #port-jumbo {
-    background-color: white;
-    /* margin-block-end: 0;
-    margin-bottom: 0px; */
-    margin: auto;
-    height: auto;
-    padding: 40px;
+    height: 100%;
+    background-color: #f2f1f2;
+    padding: 20px;
 }
 
 #work {
@@ -274,10 +272,12 @@ label, button {
     text-align: center;
     font-size: 100px;
     margin-top: 250px;
+    color: white;
 }
 
 #workDiv {
     /* margin-right: 20px;*/
+    background-color: white;
     width: 400px;
     padding: 20px;
     margin: 20px;
@@ -285,12 +285,7 @@ label, button {
 }
 
 #portfolio {
-    /* margin: 60px; */
-    margin: auto;
-    background-color: #F8F9FA;
     padding: 20px;
-    align-content: center;
-
 }
 
 #port-nav {

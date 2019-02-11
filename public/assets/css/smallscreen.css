@@ -1,5 +1,10 @@
 @media only screen and (max-width : 576px) {
-    #hello {
+    #hello, #work {
+        font-size: 75px;
+        padding: 100px;
+    }
+
+    #contact {
         font-size: 75px;
         padding: 100px;
     }
