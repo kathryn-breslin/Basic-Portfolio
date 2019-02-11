@@ -90,7 +90,7 @@ $("#liriLink").on("click", function (event) {
     console.log("Taking you to the Liri's Github");
 });
 
-$("liriDemo").on("click", function (event) {
+$("#liriVideo").on("click", function (event) {
     event.preventDefault();
     window.open("https://drive.google.com/file/d/1x2YOFZ2Mt4-fcQB9b4qlJy3CFGK8UyPY/view?usp=sharing", "_blank")
     console.log("Taking you to the demo");

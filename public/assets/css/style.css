@@ -18,14 +18,6 @@ body, html {
     margin: 0;
 }
 
-/* #main-jumbo {
-    background-color: white;
-    margin-block-end: 0;
-    margin-bottom: 0px;
-    height: 800px;
-    position: absolute;
-} */
-
 #home-nav {
     background-color: white;
     padding: 15px;
@@ -150,11 +142,13 @@ body, html {
 }
 
 #contact-jumbo{
-    padding: 50px; 
+    height: 100%;
+    background-color: #f2f1f2;
+    padding: 20px; 
 }
 
 #contactForm {
-    background-color: #F8F9FA;
+    background-color: white;
     height: auto;
     margin: auto;
     padding: 50px;
