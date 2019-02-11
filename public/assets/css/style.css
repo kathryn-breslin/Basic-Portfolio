@@ -18,13 +18,13 @@ body, html {
     margin: 0;
 }
 
-#main-jumbo {
+/* #main-jumbo {
     background-color: white;
     margin-block-end: 0;
     margin-bottom: 0px;
     height: 800px;
     position: absolute;
-}
+} */
 
 #home-nav {
     background-color: white;
@@ -39,7 +39,7 @@ body, html {
 #hello {
     font-family: 'Arimo', sans-serif;
     text-align: center;
-    font-size: 300px;
+    font-size: 200px;
     margin-top: 50px;
 }
 
@@ -47,16 +47,14 @@ body, html {
     text-align: center;
     font-family: 'Arimo', sans-serif;
     margin-top: 50px;
-}
-
-#about {
-    margin: 100px;
-    position: relative;
+    border-bottom: solid black 1px;
+    padding-bottom: 20px;
 }
 
 #kathryn {
     float: left; 
-    margin-right: 30px;
+    margin-right: 20px;
+    margin-left: 20px
 }
 
 #kathryn img:hover {
@@ -71,20 +69,20 @@ body, html {
     margin-left: 20px;
 }
 
-
-#paragraph {
-    position: relative;
+#about {
     height: 100%;
     background-color: #f2f1f2;
-    padding: 40px;
-    margin-left: 20px;
-    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    border-bottom: solid black 1px;
+}
 
+#paragraph {
+    padding: 20px;
 }
 
 #paragraph p {
     font-size: 20px;
-    margin: 20px;
+    margin: 10px;
 }
 
 #quote {
@@ -111,7 +109,6 @@ body, html {
 #indexContact {
     background-color: #9E827F;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-left: 20px;
     padding: 30px;
 }
 
@@ -355,132 +352,5 @@ label, button {
     transition: all 0.4s ease 0s;
 }
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
-    /* Styles */
-    #main-jumbo {
-        background-color: white;
-        margin-block-end: 0;
-        margin-bottom: 0px;
-        height: 100%;
-    }
-
-    #home-nav {
-        background-color: white;
-        padding: 15px;
-        overflow: hidden;
-        position: fixed;
-        top: 0;
-        width: 100%;
-        z-index: 100;
-    }
-
-    #hello {
-        font-family: 'Arimo', sans-serif;
-        text-align: center;
-        font-size: 100px;
-        margin-top: 200px;
-    }
-
-    #kathryn {
-        float: left;
-        clear: right;
-    }
-
-    #paragraph {
-        float: left;
-    }
-
-    #contact-jumbo {
-        clear: right;
-        margin-bottom: 20px;
-    }
-}
-
-/* iPhone 6, 7, 8 ----------- */
-@media only screen and (min-width: 480px) and (max-width: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-        /* Styles */
-        #home-nav {
-            background-color: white;
-            padding: 15px;
-            overflow: hidden;
-            position: fixed;
-            top: 0;
-            width: 100%;
-            z-index: 100;
-        }
-
-        #hello {
-            font-family: 'Arimo', sans-serif;
-            text-align: center;
-            font-size: 100px;
-            margin-top: 100px;
-        }
-
-        #kathryn {
-            float: left;
-            clear: right;
-        }
-    
-        #paragraph {
-            float: left;
-        }
-
-        #workDiv {
-            float: left;
-            clear: right;
-        }
-
-        #port-nav {
-            background-color: white;
-            padding: 15px;
-            overflow: hidden;
-            position: fixed;
-            top: 0;
-            width: 100%;
-            z-index: 100;
-        }
-
-        #contact-nav {
-            background-color: white;
-            padding: 15px;
-            overflow: hidden;
-            position: fixed;
-            top: 0;
-            width: 100%;
-            z-index: 100;
-        }
-    }
-
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-width : 768px) and (max-width : 1024px) {
-    /* Styles */
-    #home-nav {
-        background-color: white;
-        padding: 15px;
-        overflow: hidden;
-        position: fixed;
-        top: 0;
-        width: 100%;
-        z-index: 100;
-    }
-    
-    #hello {
-        font-family: 'Arimo', sans-serif;
-        text-align: center;
-        font-size: 200px;
-        margin-top: 100px;
-    }
-
-    #kathryn {
-        float: left;
-        clear: right;
-    }
-
-    #paragraph {
-        float: left;
-    }
-
-}
         
     
