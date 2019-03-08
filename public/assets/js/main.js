@@ -48,6 +48,18 @@ $("#friendHeroku").on("click", function (event) {
     console.log("Taking you to the deployed app");
 });
 
+$("#tourLink").on("click", function (event) {
+    event.preventDefault();
+    window.open("https://github.com/kathryn-breslin/TriviaGame", "_blank")
+    console.log("Tour has been clicked")
+});
+
+$("#tourPage").on("click", function (event) {
+    event.preventDefault();
+    window.open("https://kathryn-breslin.github.io/TriviaGame/", "_blank")
+    console.log("Taking you to the deployed app");
+});
+
 $("#burgerLink").on("click", function (event) {
     event.preventDefault();
     window.open("https://github.com/kathryn-breslin/burger", "_blank")
@@ -133,46 +145,46 @@ $("#psychicPage").on("click", function (event) {
     console.log("Psychic has been clicked");
 });
 
-$("#submitContact").on("click", function (event) {
-    event.preventDefault();
+// $("#submitContact").on("click", function (event) {
+//     event.preventDefault();
 
-    var firstName = $("#firstName").val().trim();
-    var lastName = $("#lastName").val().trim();
-    var email = $("#email").val();
-    var phoneNumber = $("#phoneNumber").val();
-    var comments = $("#details").val();
+//     var firstName = $("#firstName").val().trim();
+//     var lastName = $("#lastName").val().trim();
+//     var email = $("#email").val();
+//     var phoneNumber = $("#phoneNumber").val();
+//     var comments = $("#details").val();
 
- if ((firstName === "") || (lastName === "") || (phoneNumber === "")) {
-        swal({
-            icon: "error",
-            title: "Missing Info",
-            text: "Please fill empty fields.",
-            button: "Ok"
-        });
-    }
-    else {
-        var contactInfo = {
-            firstName: firstName,
-            lastName: lastName,
-            phoneNumber: phoneNumber,
-            email: email,
-            details: comments
-        };
-        console.log(contactInfo);
+//  if ((firstName === "") || (lastName === "") || (phoneNumber === "")) {
+//         swal({
+//             icon: "error",
+//             title: "Missing Info",
+//             text: "Please fill empty fields.",
+//             button: "Ok"
+//         });
+//     }
+//     else {
+//         var contactInfo = {
+//             firstName: firstName,
+//             lastName: lastName,
+//             phoneNumber: phoneNumber,
+//             email: email,
+//             details: comments
+//         };
+//         console.log(contactInfo);
 
-        $.ajax("/api/contact", {
-            type: "POST",
-            data: contactInfo
-        }).then(function () {
-            swal({
-                icon: "success",
-                title: "Contacted!",
-                showConfirmButton: true,
-                confirmButtonText: "Ok",
-                closeOnConfirm: false
-            }).then(function (result) {
-                window.location = "/";
-            })
-        })
-    }
-})
+//         $.ajax("/api/contact", {
+//             type: "POST",
+//             data: contactInfo
+//         }).then(function () {
+//             swal({
+//                 icon: "success",
+//                 title: "Contacted!",
+//                 showConfirmButton: true,
+//                 confirmButtonText: "Ok",
+//                 closeOnConfirm: false
+//             }).then(function (result) {
+//                 window.location = "/";
+//             })
+//         })
+//     }
+// })

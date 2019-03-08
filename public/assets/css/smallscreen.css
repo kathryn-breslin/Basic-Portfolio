@@ -1,12 +1,12 @@
 @media only screen and (max-width : 576px) {
     #hello, #work {
         font-size: 75px;
-        padding: 100px;
+        padding: 70px;
     }
 
     #contact {
         font-size: 75px;
-        padding: 100px;
+        padding: 90px;
     }
 
     #quote p {

@@ -31,17 +31,17 @@ body, html {
 #hello {
     font-family: 'Arimo', sans-serif;
     text-align: center;
-    font-size: 200px;
-    margin-top: 50px;
+    font-size: 100px;
+    margin-top: 120px;
 }
 
-#name {
+/* #name {
     text-align: center;
     font-family: 'Arimo', sans-serif;
     margin-top: 50px;
     border-bottom: solid black 1px;
     padding-bottom: 20px;
-}
+} */
 
 #kathryn img:hover {
     background: #262626;
@@ -259,6 +259,7 @@ label, button {
     height: 100%;
     background-color: #f2f1f2;
     padding: 20px;
+    margin: auto;
 }
 
 #work {
@@ -274,12 +275,17 @@ label, button {
     background-color: white;
     width: 400px;
     padding: 20px;
-    margin: 20px;
+    /* margin: 20px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #portfolio {
     padding: 20px;
+    margin: auto;
 }
 
 #port-nav {
@@ -292,7 +298,7 @@ label, button {
     z-index: 100;
 }
 
-#imgRoadster, #imgBurger, #imgFriend, #imgPlant, #imgWebScrape, #imgBamazon, #imgCrystal, #imgPsychic, #imgTrain, #imgGif, #imgLiri {
+#imgRoadster, #imgBurger, #imgFriend, #imgPlant, #imgWebScrape, #imgBamazon, #imgCrystal, #imgPsychic, #imgTrain, #imgGif, #imgLiri, #imgTour {
     opacity: 0.5;
 }
 .card-title {
