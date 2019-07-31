@@ -18,7 +18,16 @@ body, html {
     margin: 0;
 }
 
-#home-nav {
+#kathrynNav p {
+    /* font-family: "Inconsolata", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.5; */
+    font-family: 'Raleway', sans-serif;
+
+}
+
+/* #home-nav {
     background-color: white;
     padding: 15px;
     overflow: hidden;
@@ -26,98 +35,123 @@ body, html {
     top: 0;
     width: 100%;
     z-index: 100
-}
+} */
 
-#hello {
+#kathrynNav p{
+    font-size: 70px;
+    color: #000000;
+    font-family: "Inconsolata", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+
+}
+#home-nav {
+    text-align: center;
+}
+/* #hello {
     font-family: 'Arimo', sans-serif;
     text-align: center;
     font-size: 100px;
     margin-top: 120px;
-}
-
-/* #name {
-    text-align: center;
-    font-family: 'Arimo', sans-serif;
-    margin-top: 50px;
-    border-bottom: solid black 1px;
-    padding-bottom: 20px;
 } */
 
-#kathryn img:hover {
-    background: #262626;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
-}
-
-#kathryn img {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-#about {
+#top {
+    background-color: #F4F2EC;
     height: 100%;
-    background-color: #f2f1f2;
-    padding: 20px;
-    border-bottom: solid black 1px;
+    margin: 30px;
 }
 
-#spacer {
-    height: 50px;
+#image {
+    float: right;
+    margin: 50px;
 }
 
-#paragraph {
-    padding: 20px;
-}
-
-.content {
-    font-size: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-#quote p {
-    /* margin: 40px;
-    margin-top: 60px; */
-    font-size: 40px;
-    color: #585B68;
-    text-align: center;
-    margin-left: 40px;
-    margin-right: 40px;
-    /* margin-bottom: 20px; */
+#monstera img {
+    height:auto;
+    max-width:100%;
 
 }
 
-#indexContact {
-    background-color: #9E827F;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 30px;
+#links {
+    border-top: solid black 1px;
 }
 
-#indexContact a {
-    display: block;
-    width:150px;
-    height:150px;
-    line-height:135px;
-    border: 2px solid #f5f5f5;
-    border-radius: 50%;
-    color:#f5f5f5;
-    text-align:center;
-    text-decoration:none;
-    background: #585B68;
-    box-shadow: 0 0 3px gray;
-    font-size:20px;
-    font-weight:bold;
-    float: left;
+#links button {
+    font-family: "Inconsolata", sans-serif;
     margin-top: 20px;
-    margin: 20px;
 }
 
-#indexContact a:hover {
-    background: #262626;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+/* #image {
+    margin: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+} */
+
+#aboutMe {
+    /* float: right; */
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    /* border-bottom: solid black 1px; */
+    float: left;
+}
+
+#aboutMeLine {
+    color: #000000;
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Raleway', sans-serif;
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+#aboutMe p{
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+#aboutMePara p{
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #000000;
+    font-family: "Inconsolata", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+} 
+
+#aboutMeLine {
+    border-bottom: solid black 1px;
+
+}
+
+#bottomButtons {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+#bottomButtons button {
+    font-family: "Inconsolata", sans-serif;
+}
+
+#bottom {
+    background-color: white;
+    text-align: center;
 }
 
 #indexContactFooter {
-    background-color: #f2f1f2;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(12, 4, 4, 0.19); */
     padding: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
 }
 
 #indexContactFooter a {
@@ -133,6 +167,7 @@ body, html {
     background: #585B68;
     box-shadow: 0 0 3px gray;
     font-size:20px;
+    font-family: "Inconsolata", sans-serif;
     font-weight:bold;
     float: left;
     margin-top: 20px;
@@ -145,36 +180,39 @@ body, html {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
 }
 
-#footerIndex button {
-    background-color: #f2f1f2;
+#indexContactFooter button {
+    background-color: white;
     border: none;
 }
 
-#footerIndex {
-    font-size: 40px;
-    color: white;
-    text-align: center;  
+#footerDiv {
+    background-color: #EDE4DF;
+    height: 100%;
+    margin: 30px;
 }
 
-#footer {
-    font-size: 40px;
+#email {
     color: white;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+#aboutMeButtons {
     text-align: center;
-} 
-#footer button {
-    background-color: #9E827F;
-    border: none;
+    margin-bottom: 100px;
+    text-decoration: none;
 }
 
-.btn-circle.btn-xl {
-    width: 70px;
-    height: 70px;
-    padding: 10px 16px;
-    border-radius: 35px;
-    font-size: 24px;
-    line-height: 1.33;
+#aboutMeButtons button a:link {
+    color: white;
+    text-decoration: none;
+    font-family: "Inconsolata", sans-serif;
 }
 
+#aboutMeButtons button a:visited {
+    color: white;
+    text-decoration: none;
+}
 /* CONTACT PAGE */
 #contact{
     font-family: 'Arimo', sans-serif;
@@ -232,12 +270,12 @@ label, button {
     padding: 20px;
 }
 
-#email {
+/* #email {
     background-color: white;
     margin: 40px;
     padding: 40px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+} */
 
 #email h2 {
     text-align: center;
