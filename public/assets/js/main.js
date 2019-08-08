@@ -38,7 +38,7 @@ $("#roadsterVideo").on("click", function (event) {
 
 $("#friendLink").on("click", function (event) {
     event.preventDefault();
-    window.open("https://github.com/kathryn-breslin/FriendFinder", "_blank") 
+    window.open("https://github.com/kathryn-breslin/FindFriends", "_blank") 
     console.log("Friend Finder has been clicked")
 });
 
@@ -86,7 +86,7 @@ $("#scrapeHeroku").on("click", function (event) {
 
 $("#bamazonLink").on("click", function (event) {
     event.preventDefault();
-    window.open("https://github.com/kathryn-breslin/bamazon", "_blank")
+    window.open("https://github.com/kathryn-breslin/bamazonApp", "_blank")
     console.log("Taking you to the deployed app");
 });
 
@@ -98,33 +98,38 @@ $("#bamazonVideo").on("click", function (event) {
 
 $("#liriLink").on("click", function (event) {
     event.preventDefault();
-    window.open("https://github.com/kathryn-breslin/liri-node-app", "_blank")
+    window.open("https://github.com/kathryn-breslin/liri-node-search", "_blank")
     console.log("Taking you to the Liri's Github");
 });
 
 $("#liriVideo").on("click", function (event) {
     event.preventDefault();
-    window.open("https://drive.google.com/file/d/1x2YOFZ2Mt4-fcQB9b4qlJy3CFGK8UyPY/view?usp=sharing", "_blank")
+    window.open("https://drive.google.com/file/d/15SDJbLPRO57eXfOJVQG0lLuJeKZmQWq6/view?usp=sharing", "_blank")
     console.log("Taking you to the demo");
 });
 
 $("#gifLink").on("click", function (event) {
     event.preventDefault();
-    window.open("https://github.com/kathryn-breslin/GifTastic", "_blank")
+    window.open("https://github.com/kathryn-breslin/giphy-search", "_blank")
     console.log("Gif has been clicked");
 });
 
 $("#gifPage").on("click", function (event) {
     event.preventDefault();
-    window.open("https://kathryn-breslin.github.io/GifTastic/", "_blank")
+    window.open("https://kathryn-breslin.github.io/giphy-search/", "_blank")
     console.log("Taking you to GifTastic!");
 });
 
 
 $("#trainLink").on("click", function (event) {
     event.preventDefault();
-    window.open("https://github.com/kathryn-breslin/Train_Schedule", "_blank")
+    window.open("https://github.com/kathryn-breslin/train-Scheduler", "_blank")
     console.log("Train has been clicked");
+});
+
+$('#trainDeployed').on('click', function(event) {
+    event.preventDefault();
+    window.open("https://kathryn-breslin.github.io/train-Scheduler/", "_blank")
 });
 
 $("#crystalLink").on("click", function (event) {
@@ -133,16 +138,20 @@ $("#crystalLink").on("click", function (event) {
     console.log("Crystal has been clicked");
 });
 
-$("#psychicLink").on("click", function (event) {
+$('#crystalDemo').on('click', function(event) {
     event.preventDefault();
-    window.open("https://github.com/kathryn-breslin/Psychic-Game", "_blank")
+    window.open('https://kathryn-breslin.github.io/unit-4-game/', "_blank");
+});
+
+$("#wordGuessLink").on("click", function (event) {
+    event.preventDefault();
+    window.open("https://github.com/kathryn-breslin/hangman", "_blank")
     console.log("Psychic has been clicked");
 });
 
-$("#psychicPage").on("click", function (event) {
+$("#wordGuessPage").on("click", function (event) {
     event.preventDefault();
-    window.open("https://kathryn-breslin.github.io/Psychic-Game/", "_blank")
-    console.log("Psychic has been clicked");
+    window.open("https://kathryn-breslin.github.io/hangman/", "_blank")
 });
 
 // $("#submitContact").on("click", function (event) {
