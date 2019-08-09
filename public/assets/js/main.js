@@ -32,9 +32,14 @@ $("#roadsterLink").on("click", function (event) {
 
 $("#roadsterVideo").on("click", function (event) {
     event.preventDefault();
-    window.open("https://docs.google.com/presentation/d/1MXKVO7vOIaTJUfmee9KVCLYOzTzR5MyycZdVyAumS_o/edit?usp=sharing", "_blank") 
+    window.open("https://find-trips-with-roadster.herokuapp.com/", "_blank") 
     console.log("Taking you to the demo");
 });
+// $("#roadsterVideo").on("click", function (event) {
+//     event.preventDefault();
+//     window.open("https://docs.google.com/presentation/d/1MXKVO7vOIaTJUfmee9KVCLYOzTzR5MyycZdVyAumS_o/edit?usp=sharing", "_blank") 
+//     console.log("Taking you to the demo");
+// });
 
 $("#friendLink").on("click", function (event) {
     event.preventDefault();
