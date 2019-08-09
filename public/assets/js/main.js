@@ -92,7 +92,7 @@ $("#bamazonLink").on("click", function (event) {
 
 $("#bamazonVideo").on("click", function (event) {
     event.preventDefault();
-    window.open("https://drive.google.com/file/d/1h5yKKOIxnc7hpXxlgFaoo2_M7x3K-fc9/view", "_blank")
+    window.open("https://drive.google.com/file/d/1ejpnKIXv-e5pOOgLj6cRK_DNGUqz35WZ/view", "_blank")
     console.log("Taking you to the deployed app");
 });
 
