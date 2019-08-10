@@ -67,7 +67,7 @@ $("#tourPage").on("click", function (event) {
 
 $("#burgerLink").on("click", function (event) {
     event.preventDefault();
-    window.open("https://github.com/kathryn-breslin/burger", "_blank")
+    window.open("https://github.com/kathryn-breslin/MySQLburger", "_blank")
     console.log("Burger has been clicked")
 });
 
