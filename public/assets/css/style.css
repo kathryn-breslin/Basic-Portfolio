@@ -379,7 +379,7 @@ label, button {
     z-index: 100;
 }
 
-#imgRoadster, #imgBurger, #imgFriend, #imgPlant, #imgWebScrape, #imgBamazon, #imgCrystal, #imgPsychic, #imgTrain, #imgGif, #imgLiri, #imgTour {
+#imgRoadster, #imgBurger, #imgFriend, #imgClicky, #imgWebScrape, #imgBamazon, #imgCrystal, #imgPsychic, #imgTrain, #imgGif, #imgLiri, #imgTour {
     opacity: 0.5;
 }
 .card-title {

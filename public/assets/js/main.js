@@ -12,15 +12,15 @@ $("#contact-button").on("click", function (event) {
     window.location.href = "/contact";
 });
 
-$("#plantLink").on("click", function (event) {
+$("#clickyLink").on("click", function (event) {
     event.preventDefault();
-    window.open("https://github.com/kathryn-breslin/clickyReact/tree/master/clickyreact", "_blank")
+    window.open("https://github.com/kathryn-breslin/clicky_react", "_blank")
     console.log("Plant has been clicked")
 });
 
-$("#plantHeroku").on("click", function (event) {
+$("#clickyHeroku").on("click", function (event) {
     event.preventDefault();
-    window.open("https://plant-picker-kathryn.herokuapp.com/", "_blank");
+    window.open("https://clicky-creatures-kathryn.herokuapp.com/", "_blank");
     console.log("Taking you to the deployed app");
 });
 
