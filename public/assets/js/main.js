@@ -12,6 +12,30 @@ $("#contact-button").on("click", function (event) {
     window.location.href = "/contact";
 });
 
+$("#booksLink").on("click", function (event) {
+    event.preventDefault();
+    window.open("https://github.com/kathryn-breslin/google_books", "_blank")
+    console.log("Plant has been clicked")
+});
+
+$("#booksHeroku").on("click", function (event) {
+    event.preventDefault();
+    window.open("https://react-google-books-kathryn.herokuapp.com/", "_blank");
+    console.log("Taking you to the deployed app");
+});
+
+$("#oceanLink").on("click", function (event) {
+    event.preventDefault();
+    window.open("https://github.com/kathryn-breslin/ocean_news", "_blank")
+    console.log("Plant has been clicked")
+});
+
+$("#oceanHeroku").on("click", function (event) {
+    event.preventDefault();
+    window.open("https://ocean-news.herokuapp.com/", "_blank");
+    console.log("Taking you to the deployed app");
+});
+
 $("#clickyLink").on("click", function (event) {
     event.preventDefault();
     window.open("https://github.com/kathryn-breslin/clicky_react", "_blank")
