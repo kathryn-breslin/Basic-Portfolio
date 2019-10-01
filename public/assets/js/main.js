@@ -20,7 +20,7 @@ $("#booksLink").on("click", function (event) {
 
 $("#booksHeroku").on("click", function (event) {
     event.preventDefault();
-    window.open("https://react-google-books-kathryn.herokuapp.com/", "_blank");
+    window.open("https://gbooks-kathryn.herokuapp.com/", "_blank");
     console.log("Taking you to the deployed app");
 });
 
