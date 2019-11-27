@@ -12,6 +12,16 @@ $("#contact-button").on("click", function (event) {
     window.location.href = "/contact";
 });
 
+$("#artLink").on("click", function (event) {
+    event.preventDefault();
+    window.open("https://github.com/kathryn-breslin/artnews", "_blank")
+});
+
+$("#booksHeroku").on("click", function (event) {
+    event.preventDefault();
+    window.open("https://art-news-scraper-kathryn.herokuapp.com/", "_blank");
+});
+
 $("#booksLink").on("click", function (event) {
     event.preventDefault();
     window.open("https://github.com/kathryn-breslin/google_books", "_blank")
